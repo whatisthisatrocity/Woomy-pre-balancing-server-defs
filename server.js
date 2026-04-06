@@ -1,6 +1,3 @@
-import * as fs from "node:fs"
-import { parentPort } from "worker_threads"
-
 import { assets, ASSET_MAGIC } from "../shared/assets.js";
 import { oneVsOne } from "./modes/oneVsOne.js";
 
